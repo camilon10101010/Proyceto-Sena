@@ -1,0 +1,134 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19/11/2022, 3:10:25 p. m.
+    Author     : jirli
+*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+  
+  color: #fff rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to top , rgba(0, 0, 0, 0.486) 0%, hsla(55, 0%, 0%, 0.514) 100%), url("../assets/img/Plomeria-o-Fontaneria.jpg") ;
+  
+}
+div{
+  box-sizing: border-box;
+}
+
+
+nav{
+  background: #111;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: #Ecda51;
+}
+.nav-links {
+    display: flex;
+    justify-content:space-around;
+    width: 50%;
+    text-transform: uppercase;
+}
+.nav-links a{
+  display: block;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #fff;
+  border-bottom:2px solid transparent;
+  transition:0.5s ease;
+  transform: translateX(0%);
+}
+.nav-links a:hover{
+  color:#Ecda51;
+  letter-spacing: 5px;
+}
+.burger1{
+  display: none;
+}
+.burger1 div{
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  margin: 5px;
+  transition:all 0.5s ease;
+}
+@media only screen and (max-width: 760px){
+   nav{
+    justify-content: space-between;
+    padding: 0 5vw;
+  }
+  .nav-links{
+    position: absolute;
+    right: 0;
+    top:8vh;
+    min-height:92vh;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translateX(100%);
+    transition:All 0.5s ease-in;
+  }
+  .nav-links a{
+    opacity: 0;
+ 
+  }
+  .burger1{
+    display: block;
+  }
+ 
+}
+@media only screen and (max-width: 640px){
+  nav{
+    justify-content: space-between;
+    padding: 0 5vw;
+  }
+}
+.nav-active{
+  transform: translateX(0);
+}
+@media only screen and (max-width: 460px){
+  .nav-links{
+    width: 100%;
+    transition:All 0.5s ease;
+  }
+}
+.nav-active{
+  transform: translateX(0);
+}
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.toggle .line1{
+   transform: rotate(-45deg) translate(-5px,6px );
+}
+.toggle .line2{
+   opacity: 0;
+}
+.toggle .line3{
+   transform: rotate(45deg) translate(-5px,-6px );
+}
+
+.mapa{
+    padding: 20px;
+    border: solid 2px white;
+    border-radius: 5px;
+    margin-top: 7%;
+    background: #fff;
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: -webkit-linear-gradient(360deg, #ABABA4, #EBEBE1);
+  }
+  
+  .form-register {
+      
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ffc300;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #ffc300;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .grande{
+      width: 100%;
+      height: 100px;
+      background: #24303c;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid #ffc300;
+      font-family: 'calibri';
+      font-size: 18px;
+      color: white;
+  }
+  .select-css {
+    background-color: #444;
+    display: block;
+    font-size: 16px;
+    color: #757575;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: .4em 1.4em .3em .8em;
+    width: 400px;
+    max-width: 100%; 
+    box-sizing: border-box;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 1px solid #ffc300;
+    box-shadow: 0 1px 0 1px rgba(202, 22, 22, 0.03);
+    border-radius: .3em;
+    background-color:#24303c;
+  }
+  .option{
+    background-color: #24303c;
+  }
+.img{
+  width: 200px;
+  height: 100px;
+}
+
